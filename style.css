@@ -1,0 +1,125 @@
+body {
+  background: #555544;
+  background: linear-gradient(to right,
+    #555544, 
+    #555544 3%, 
+    #75c8ae 3%,
+    #75c8ae 4%,
+    #5a3d2b 4%,
+    #5a3d2b 5%,
+    #ffecb4 5%,
+    #ffecb4 6%,
+    #e5771e 6%,
+    #e5771e 7%,
+    #f4a127 7%,
+    #f4a127 8%,
+    #555544 8%
+  );
+  color: #EEEEEE;
+  font: 100% sans-serif;
+  padding-left:8%;
+}
+
+a {
+  font: 16pt sans-serif;
+  text-decoration: none;
+  color: #fff200;
+}
+
+div.header {
+  text-align: center;
+}
+
+div.subtitle {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+img.logo {
+  width: 100%;
+  max-width:70rem;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.icon {
+  width:3rem;
+  height:auto;
+  vertical-align: middle;
+}
+
+div.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.flex-container > div.flex-col {
+  margin:auto;
+  text-align: center;
+  width:30%;
+}
+
+div.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+div.highlights > div.highlight {
+  padding:1rem;
+  margin: 1rem 0rem 0rem 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: #fff200;
+  background: #666655;
+  width: 30%;
+  display: table
+}
+
+.highlight-icon   {
+  width:4rem;
+  margin-right:.5rem;
+  padding:auto;
+  display: table-cell;
+  vertical-align:middle;
+}
+
+.highlight-text {
+  display: table-cell;
+  vertical-align:middle;
+  width:100%;
+  font-size: 1.5rem;
+}
+
+div.get-it img.get-it-img {
+  display:block;
+  margin:auto;
+  width:50%;
+}
+
+div.stepbox {
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  padding-top:1rem;
+}
+img.stephand {
+  display:block;
+  height:6rem;
+  padding-right: 1rem;
+}
+
+div.steps {
+  font-weight: bolder;
+  font-size:1.25rem;
+}
+
+div.steps > div.step {
+  margin:auto;
+  text-align:left;
+}
