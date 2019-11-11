@@ -15,6 +15,7 @@ body {
     #f4a127 8%,
     #555544 8%
   );
+  background-size: 100%;
   color: #EEEEEE;
   font: 100% sans-serif;
   padding-left:8%;
@@ -31,7 +32,7 @@ div.header {
 }
 
 div.subtitle {
-  margin-top: 2rem;
+  margin: 2rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -59,41 +60,40 @@ div.flex-container {
 div.flex-container > div.flex-col {
   margin:auto;
   text-align: center;
-  width:30%;
+  flex-basis:30%;
 }
 
 div.highlights {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-content: center;
   justify-content: center;
 }
 
 div.highlights > div.highlight {
-  padding:1rem;
-  margin: 1rem 0rem 0rem 1rem;
+  flex: 1;
+  padding: .5rem;
+  margin: .5rem;
   border-radius: 1rem;
   text-align: center;
   font-weight: bold;
   color: #fff200;
   background: #666655;
-  width: 30%;
-  display: table
+  flex-basis: 30%;
+  display:flex;
 }
 
-.highlight-icon   {
+.highlight-icon {
   width:4rem;
-  margin-right:.5rem;
-  padding:auto;
-  display: table-cell;
-  vertical-align:middle;
+  margin-right:.5rem; 
+  align-self: center;
 }
 
 .highlight-text {
-  display: table-cell;
-  vertical-align:middle;
+  display:block;
   width:100%;
   font-size: 1.5rem;
+  align-self: center;
 }
 
 div.get-it img.get-it-img {
